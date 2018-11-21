@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipeRefresh"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+
+            <ListView
+                android:id="@+id/sensorlistview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:divider="#ffffff"
+                android:dividerHeight="10dp">
+            </ListView>
+
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+    <Button
+        android:id="@+id/addpot_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="화분 추가"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

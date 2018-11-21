@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="major">
+        <item>소프트웨어학과</item>
+        <item>컴퓨터공학과</item>
+        <item>메카트로닉스공학과</item>
+        <item>전자공학과</item>
+        <item>정보통신공학과</item>
+        <item>도시공학과</item>
+        <item>가정교육과</item>
+        <item>기술교육과</item>
+        <item>미술교육과</item>
+        <item>물리교육과</item>
+        <item>불어교육과</item>
+        <item>소프트웨어학과(대학원)</item>
+        <item>컴퓨터공학과(대학원)</item>
+        <item>메카트로닉스공학과(대학원)</item>
+        <item>전자공학과(대학원)</item>
+        <item>정보통신공학과(대학원)</item>
+        <item>도시공학과(대학원)</item>
+        <item>가정교육과(대학원)</item>
+        <item>기술교육과(대학원)</item>
+        <item>미술교육과(대학원)</item>
+        <item>물리교육과(대학원)</item>
+        <item>불어교육과(대학원)</item>
+    </string-array>
+
+    <string-array name="pump_time">
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
+        <item>2500</item>
+        <item>3000</item>
+        <item>3500</item>
+        <item>4000</item>
+        <item>4500</item>
+        <item>5000</item>
+    </string-array>
+
+    <string-array name="sensor_limited">
+        <item>500</item>
+        <item>550</item>
+        <item>600</item>
+        <item>650</item>
+        <item>700</item>
+        <item>750</item>
+        <item>800</item>
+        <item>850</item>
+        <item>900</item>
+    </string-array>
+
+
+
+
+</resources>

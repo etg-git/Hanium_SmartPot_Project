@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:background="@drawable/background_img"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="회원 가입"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp">
+
+                <EditText
+                    android:id="@+id/idText"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="#00000000"
+                    android:drawableLeft="@drawable/ic_person_black_24dp"
+                    android:drawableStart="@drawable/ic_person_black_24dp"
+                    android:hint="ID"
+                    android:padding="10dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000" />
+
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:background="#D0F5A9"
+                    android:text="중복 체크"
+                    android:layout_gravity="center"
+                    android:id="@+id/validateButton"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/passwordText"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="#00000000"
+                android:drawableLeft="@drawable/ic_lock_black_24dp"
+                android:drawableStart="@drawable/ic_lock_black_24dp"
+                android:hint="PW"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textColorHint="#000000" />
+
+            <EditText
+                android:id="@+id/emailText"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="#00000000"
+                android:drawableLeft="@drawable/ic_mail_outline_black_24dp"
+                android:drawableStart="@drawable/ic_mail_outline_black_24dp"
+                android:hint="E-mail"
+                android:padding="10dp"
+                android:paddingLeft="5dp"
+                android:textColor="#000000"
+                android:textColorHint="#000000" />
+
+            <RadioGroup
+                android:id="@+id/genderGrop"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/genderWoman"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="여성" />
+
+                <RadioButton
+                    android:id="@+id/genderMan"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="남성" />
+
+            </RadioGroup>
+
+            <Spinner
+                android:id="@+id/majorSpinner"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"></Spinner>
+
+            <Button
+                android:id="@+id/registerButton"
+                android:layout_width="111dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="170dp"
+                android:background="#D0F5A9"
+                android:text="가입하기"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

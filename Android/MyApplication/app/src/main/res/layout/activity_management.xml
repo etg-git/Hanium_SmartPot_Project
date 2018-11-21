@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ManagementActivity">
+
+    <TextView
+        android:id="@+id/management_lastupdate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="10dp"
+        android:text="마지막 업데이트 : "
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/management_pot"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorMGreen"
+        android:text="null"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/management_flower1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="Sensor1"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/management_sensor1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:text="null"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/management_sensor1_btn"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="supply" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/management_flower2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="Sensor2"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/management_sensor2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:text="null"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/management_sensor2_btn"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="supply" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/management_flower3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="Sensor3 "
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/management_sensor3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:text="null"
+            android:textAlignment="center"
+
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/management_sensor3_btn"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="supply" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/management_flower4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="Sensor4"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/management_sensor4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:text="null"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/management_sensor4_btn"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="supply" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/management_startdate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_purple"
+        android:paddingLeft="10dp"
+        android:text="0 일차"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <RadioGroup
+        android:id="@+id/management_rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/management_self"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="수동"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/management_auto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="자동"/>
+
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_height="30dp"
+            android:background="@color/colorMGreen"
+            android:textColor="#ffffff"
+            android:layout_width="80dp"
+            android:textAlignment="center"
+            android:text="임계 값"
+            android:textSize="17dp"/>
+
+        <Spinner
+            android:layout_height="30dp"
+            android:id="@+id/management_limited"
+            android:layout_width="150dp"
+            android:entries="@array/sensor_limited">
+        </Spinner>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_height="30dp"
+            android:background="@color/colorMGreen"
+            android:textColor="#ffffff"
+            android:layout_width="80dp"
+            android:textAlignment="center"
+            android:text="급수 시간"
+            android:textSize="17dp"/>
+
+        <Spinner
+            android:layout_height="30dp"
+            android:id="@+id/management_pumptime"
+            android:layout_width="150dp"
+            android:entries="@array/pump_time">
+        </Spinner>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="단위 ms"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/management_apply_btn"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="apply" />
+
+</LinearLayout>

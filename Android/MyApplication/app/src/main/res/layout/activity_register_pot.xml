@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterPotActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_img"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/potsName"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="#D0F5A9"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawableStart="@drawable/ic_person_black_24dp"
+            android:hint="화원"
+            android:privateImeOptions="defaultInputmode=korean"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#ffffff" />
+
+        <EditText
+            android:id="@+id/potName_1"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#F6CECE"
+            android:drawableLeft="@drawable/ic_local_florist_black_24dp"
+            android:drawableStart="@drawable/ic_local_florist_black_24dp"
+            android:hint="1번 식물"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#ffffff" />
+
+        <EditText
+            android:id="@+id/potName_2"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#F6CECE"
+            android:drawableLeft="@drawable/ic_local_florist_black_24dp"
+            android:drawableStart="@drawable/ic_local_florist_black_24dp"
+            android:hint="2번 식물"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#ffffff" />
+
+        <EditText
+            android:id="@+id/potName_3"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#F6CECE"
+            android:drawableLeft="@drawable/ic_local_florist_black_24dp"
+            android:drawableStart="@drawable/ic_local_florist_black_24dp"
+            android:hint="3번 식물"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#ffffff" />
+
+        <EditText
+            android:id="@+id/potName_4"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#F6CECE"
+            android:drawableLeft="@drawable/ic_local_florist_black_24dp"
+            android:drawableStart="@drawable/ic_local_florist_black_24dp"
+            android:hint="4번 식물"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#ffffff" />
+
+
+        <Button
+            android:id="@+id/potRegisterButton"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="190dp"
+            android:background="#D0F5A9"
+            android:text="등록"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+</LinearLayout>

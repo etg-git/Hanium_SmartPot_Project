@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="마지막 업데이트 : "
+            android:layout_marginLeft="10dp"
+            android:id="@+id/lastupdate"
+            android:textSize="15dp"
+            android:textColor="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="null"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:id="@+id/pot"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:background="@color/colorMGreen"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sensor1"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:background="@color/colorPrimary"
+                android:id="@+id/flower1"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="null"
+                android:id="@+id/sensor1"
+                android:textSize="20dp"
+                android:textAlignment="center"
+
+                android:textColor="@color/colorPrimary"
+                android:background="#ffffff"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sensor2"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:background="@color/colorPrimary"
+                android:id="@+id/flower2"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="null"
+                android:textAlignment="center"
+                android:id="@+id/sensor2"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                android:background="#ffffff"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sensor3 "
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:background="@color/colorPrimary"
+                android:id="@+id/flower3"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="null"
+                android:id="@+id/sensor3"
+                android:textSize="20dp"
+                android:textAlignment="center"
+
+                android:textColor="@color/colorPrimary"
+                android:background="#ffffff"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sensor4"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:background="@color/colorPrimary"
+                android:id="@+id/flower4"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="null"
+                android:textAlignment="center"
+                android:id="@+id/sensor4"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                android:background="#ffffff"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/startdate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@android:color/holo_purple"
+            android:paddingLeft="10dp"
+            android:text="0 일차"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/sensor_auto"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@android:color/holo_red_light"
+            android:paddingLeft="10dp"
+            android:textAlignment="center"
+            android:text="수동 급수"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
